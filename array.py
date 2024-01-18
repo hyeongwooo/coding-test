@@ -3,7 +3,7 @@
 
 def solution(arr):
     answer = ''
-    for i in (arr):
+    for i in (arr): # for i in range에서 range는 정수 범위에 대해서만 작동!!
         answer += i
     return answer
 
