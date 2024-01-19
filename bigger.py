@@ -8,18 +8,18 @@
 
 def solution(a, b):
     answer = 0
-    # sum = str(a) + str(b)
-    # sum_other = str(b) + str(a)
-    # if sum > sum_other:
-    #     return sum
-    # else:
-    #     return sum_other
-    # 위와 같은 방법으로 해도 실행은 되는데 왜 오류가 나는지?....
-    a, b = str(a), str(b)
-    if int(a+b) >= int(b+a):
-        return int(a+b)
+    sum = str(a) + str(b)
+    sum_other = str(b) + str(a)
+    if sum > sum_other:
+        return sum
     else:
-        return int(b+a)
+        return sum_other
+    # 위와 같은 방법으로 해도 실행은 되는데 왜 오류가 나는지?....
+    # a, b = str(a), str(b)
+    # if int(a+b) >= int(b+a):
+    #     return int(a+b)
+    # else:
+    #     return int(b+a)
 
 
     
