@@ -13,7 +13,7 @@ def solution(my_string, overwrite_string, s):
 
 # 입력 받기
 my_string, overwrite_string, s_str = input().strip().split(' ')
-s = int(s_str)
+s = int(s_str) # 문자열을 정수형으로 변환
 
 # 함수 호출 및 결과 출력
 result = solution(my_string, overwrite_string, s)
