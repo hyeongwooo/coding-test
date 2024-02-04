@@ -42,7 +42,7 @@ for j in range(15):
 
 
 # 2563 색종이
-array = [[0 for _ in range(101)]for _ in range(101)]
+array = [[0 for _ in range(101)]for _ in range(101)]     # 101x101 2차원 배열을 만들고 0으로 초기화
 n = int(input())
 for i in range(n):
     a, b = map(int, input().split())
